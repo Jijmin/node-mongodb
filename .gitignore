@@ -28,7 +28,6 @@ coverage
 build/Release
 
 # Dependency directories
-bower_components
 node_modules
 jspm_packages
 
@@ -46,3 +45,5 @@ jspm_packages
 
 # Yarn Integrity file
 .yarn-integrity
+
+bower_components
