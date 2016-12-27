@@ -1,10 +1,9 @@
 // 严格模式
 'use strict';
-// 导入express包
 const express=require('express');
-// 导入path包
 const path = require('path');
 const bodyParser = require('body-parser');
+const mongoose=require('mongoose');
 // 设置端口
 let port=process.env.PORT || 3000;
 // 启动一个web服务器
